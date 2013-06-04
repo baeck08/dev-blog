@@ -7,11 +7,21 @@
 
 
 <style type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Trade+Winds' rel='stylesheet' type='text/css'>
 
 body {
 	margin-left: 0px; border-left-width: 950px; width: 950px; height: 950px;
 
 	}
+#pagemenu {
+  position:absolute; 
+  top: 30px; 
+  left:85px; 
+  font-family: 'Trade Winds', cursive;
+  color: white;
+  font-size: 40px;
+}
+
 
 #header {
 		width:950px;
@@ -46,11 +56,13 @@ a {
 
 </head>
  <body>
-
- 	<div id="header">
-		<img src="purple.jpg" width="950" height="154" alt="Blog Header" border="0">
-
-	</div>
+<div id="outerWrapper">
+    <div id="header">
+      <img src="purple.jpg" width="950" height="154" alt="Blog Header" border="0">
+    <div id="pagemenu">
+    Developers Blog
+    </div>
+  </div>
 
 	<div id="menu">
 		<a href="blog.html">Home Page</a>
@@ -66,6 +78,10 @@ a {
 
 		<p>Currently, I am a senior at Kansas State University studying Management Information Systems and working for the Office of Mediated Education at Kansas State as well. I plan to graduate this May and hope to increase my knowledge and move forward with my degree.</p>
 	</div>
+
+	<button type = "button">
+          	Edit Entry
+          </button>
  
  	<div id="footer">
  		Copyright 2013

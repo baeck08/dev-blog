@@ -5,14 +5,22 @@
 
   <title>Entry Page</title>
 
-
 <style type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Trade+Winds' rel='stylesheet' type='text/css'>
 
 body {
 	margin-left: 0px; border-left-width: 950px; width: 950px; height: 950px;
 
 	}
 
+#pagemenu {
+  position:absolute; 
+  top: 30px; 
+  left:85px; 
+  font-family: 'Trade Winds', cursive;
+  color: white;
+  font-size: 40px;
+}
 
 #header {
 		width:950px;
@@ -46,10 +54,13 @@ a {
 
 </head>
  <body>
-
- 	<div id="header">
-		<img src="purple.jpg" width="950" height="154" alt="Blog Header" border="0">
-</div>
+    <div id="outerWrapper">
+    <div id="header">
+      <img src="purple.jpg" width="950" height="154" alt="Blog Header" border="0">
+    <div id="pagemenu">
+    Developers Blog
+    </div>
+  </div>
 
 	<div id="menu">
 		<a href="blog.html">Home Page</a>
@@ -84,7 +95,7 @@ a {
                   cols = "92">Your text here</textarea>
 
          <button type = "button">
-          	Submit
+          	Post Entry
           </button>
         </p>
 
@@ -95,7 +106,7 @@ a {
 <div id="footer">
 	Copyright 2013
  </div>
- 
+ </div>
  </body>
 
 
