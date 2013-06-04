@@ -1,0 +1,43 @@
+body {
+	margin-left: 0px; border-left-width: 950px; width: 950px; height: 950px;
+
+	}
+	
+#pagemenu {
+  position:absolute; 
+  top: 30px; 
+  left:85px; 
+  font-family: 'Trade Winds', cursive;
+  color: white;
+  font-size: 40px;
+}
+
+
+#header {
+		width:950px;
+	}
+
+#menu {
+	width: 160px;
+	float:left;
+	padding-left: 23px;
+	padding-top:25px;
+}
+
+#left {
+	float:left;
+	width: 750px;
+
+}	
+
+a {
+	display: block;
+	letter-spacing: -.02em;
+	text-decoration: none;
+	line-height: 2em;
+}
+
+#footer {
+	clear:left;
+	font-weight: 3em;
+}
