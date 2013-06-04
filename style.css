@@ -1,21 +1,23 @@
-body {
-	margin-left: 0px; border-left-width: 950px; width: 950px; height: 950px;
-	position: center;
 
-	}
 	
 #pagemenu {
   position:absolute; 
   top: 30px; 
-  left:85px; 
+  left:420px; 
   font-family: 'Trade Winds', cursive;
   color: white;
   font-size: 40px;
 }
 
+#outerWrapper {
+	margin: 0 auto;
+	width: 950px;
+}
+
 
 #header {
 		width:950px;
+		
 	}
 
 #menu {
@@ -39,6 +41,7 @@ a {
 }
 
 #footer {
-	clear:left;
+
 	font-weight: 3em;
+	margin: 0 auto;
 }
