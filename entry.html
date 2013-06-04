@@ -1,58 +1,59 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
 
 <head>
+    <meta charset="utf-8">
+      <title>Entry Page | Dev Blog</title>
 
-      <title>Entry Page</title>
-
-      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="static/css/dev-blog.css">
 
 </head>
 
 <body>
     <div id="outerWrapper">
-        <div id="header">
-          <img src="purple.jpg" alt="Blog Header">
-            <div id="pagemenu">
-                Developers Blog
-            </div>
-        </div>
+        <header id="header">
+            <a href="blog.html">Developers Blog</a>
+        </header>
 
-	         <div id="menu">
+	         <nav id="menu">
 		          <a href="blog.html">Home Page</a>
 		          <a href="entry.html">Entry Page</a>
-	         </div>	
+	         </nav>	
 	       
 
-         <div id="left">
+         <section id="left">
 
 		        <form>
               <fieldset>
             <p>
-       	      <label>Title</label>
+       	      <label for="myTitle">Title</label>
                 <input type = "text"
-                 id = "myText"
-                 value = "text here" />
+                 id = "myTitle"
+                 placeholder="text here"
+                 value = "" />
             </p>
 
             <p>
-              <label>Date</label>
+              <label for="myDate">Date</label>
                 <input type = "text"
-                 id = "myText"
-                 value = "text here" />
+                 id = "myDate"
+                 placeholder="text here"
+                 value = "" />
             </p>
 
             <p>
-              <label>Author</label>
+              <label for="myAuthor">Author</label>
                 <input type = "text"
-                 id = "myText"
-                 value = "text here" />
+                 id = "myAuthor"
+                 placeholder="text here"
+                 value = "" />
             </p>
 
             <p>
               <textarea id ="myTextArea"
                   rows = "25"
-                  cols = "92">Your text here</textarea>
+                  cols = "92"
+                  placeholder="text here"></textarea>
 
               <button type = "button">
           	     Post Entry
@@ -62,12 +63,11 @@
 
               </fieldset>
             </form>
-          </div>
+          </section>
    
-            <div id="footer">
-              <img src="purple.jpg" alt="Blog Footer">
-            </div>
-      </div>      
+            <footer id="footer">
+            </footer>
+      </div><!-- /outerWrapper -->
 
 </body>
 
