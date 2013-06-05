@@ -1,8 +1,8 @@
 
 
 #header {
-  	background: url('../img/purple.jpg') no-repeat ;
-	width:950px;
+  	background: url('../img/purple2.jpg') repeat ;
+	width:960px;
 	height:154px;
 		
 		}
@@ -10,7 +10,9 @@
 #header a {
 	font-family: 'Trade Winds', cursive;
   	color: white;
-  	font-size: 40px;
+  	font-size: 50px;
+  	padding-bottom: -10px;
+
 		}
 
 #outerWrapper {
@@ -25,6 +27,7 @@
 	background:#dddddd;
 	width:950px;
 	border-radius:5px;
+	padding-top: 5px;
 }
 #menu {
 	width: 160px;
@@ -61,7 +64,7 @@ nav a {
 #footer {
 	font-weight: 3em;
 	margin: 0 auto;
-	background: url ('../img/purple.jpg') no-repeat center;
+	background: url ('../img/purple2.jpg') no-repeat center;
 	width:950px;
 	height:50px;
 	}
