@@ -21,8 +21,7 @@
 
 #wrapper {
 	border:6px solid #a1a1a1;
-	padding:5px 25px 950px; 
-	position:absolute;
+	padding:10px 25px 950px; 
 	background:#dddddd;
 	width:950px;
 	border-radius:5px;
@@ -51,7 +50,7 @@ a{
 	text-decoration: none;
 }
 
-nav a{
+nav a {
 	display: block;
 	letter-spacing: -.02em;
 	text-decoration: none;
@@ -62,7 +61,7 @@ nav a{
 #footer {
 	font-weight: 3em;
 	margin: 0 auto;
-	background-image: url ('../img/purple.jpg') no-repeat center;
+	background: url ('../img/purple.jpg') no-repeat center;
 	width:950px;
 	height:50px;
 	}
