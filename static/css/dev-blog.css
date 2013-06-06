@@ -13,18 +13,16 @@
     font-family: 'Trade Winds', cursive; /* Need to include Trade Winds, if it's not a default. */
     color: #fff;
     font-size: 50px;
-    font-size: 3.125rem;
+    font-size: 3.125rem; /* 50px/16px (base font size) */
     padding: .5em 0 .75em .25em;
 }
 
 #wrapper {
-	border:6px solid #a1a1a1;
-	padding: 20px 0px 700px; 
-	background:#dddddd;
-	width:950px;
-	border-radius:8px;
-	padding-top: 23px;
-	}
+    background: #ddd;
+    border: 6px solid #a1a1a1;
+    padding: 1.4375em 0; /* 23px/16px (base font size) */
+    overflow: auto; /* One way for parents to contain their floated childs. */
+}
 
 #menu {
 	width: 100px;
