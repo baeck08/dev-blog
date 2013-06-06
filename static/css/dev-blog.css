@@ -1,4 +1,9 @@
-
+#outerWrapper {
+    border: 6px solid #484848 ;
+    border-radius: 15px;
+    margin: 0 auto;
+    width: 960px;
+}
 
 #header {
   	background: url('../img/purple2.jpg') repeat ;
@@ -15,14 +20,6 @@
   	padding-left: .5em;
 
 		}
-
-#outerWrapper {
-	margin: 0 auto;
-	width: 950px;
-	border:6px solid #484848 ;
-	border-radius:15px;
-	padding-right: 10px;
-	}
 
 #wrapper {
 	border:6px solid #a1a1a1;
