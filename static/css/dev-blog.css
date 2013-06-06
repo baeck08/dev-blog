@@ -6,20 +6,16 @@
 }
 
 #header {
-  	background: url('../img/purple2.jpg') repeat ;
-	width:960px;
-	height:154px;
-		
-		}
+    background: url('../img/purple2.jpg') no-repeat 0 45%;
+}
 
 #header a {
-	font-family: 'Trade Winds', cursive;
-  	color: white;
-  	font-size: 50px;
-  	padding-bottom: -10px;
-  	padding-left: .5em;
-
-		}
+    font-family: 'Trade Winds', cursive; /* Need to include Trade Winds, if it's not a default. */
+    color: #fff;
+    font-size: 50px;
+    font-size: 3.125rem;
+    padding: .5em 0 .75em .25em;
+}
 
 #wrapper {
 	border:6px solid #a1a1a1;
