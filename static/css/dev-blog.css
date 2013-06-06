@@ -22,9 +22,7 @@
 	border:6px solid #484848 ;
 	border-radius:15px;
 	padding-right: 10px;
-
-
-}
+	}
 
 #wrapper {
 	border:6px solid #a1a1a1;
@@ -33,7 +31,8 @@
 	width:950px;
 	border-radius:8px;
 	padding-top: 23px;
-}
+	}
+
 #menu {
 	width: 100px;
 	float:left;
@@ -71,17 +70,16 @@ nav a {
 	font-family: 'Princess Sofia', cursive;
 	text-align: right;
 
-
 	}
 
 h1 {
 	color: black;
-}
+	}
 
 #footer {
 	font-weight: 3em;
 	margin: 0 auto;
-	background-image: url ('../img/purple2.jpg') repeat center;
+	background-image: url('../img/purple2.jpg');
 	width:950px;
 	height:50px;
 	}
