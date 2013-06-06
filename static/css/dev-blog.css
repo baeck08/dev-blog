@@ -80,6 +80,12 @@ h1 {
 	font-weight: 3em;
 	margin: 0 auto;
 	background-image: url('../img/purple2.jpg');
-	width:950px;
-	height:50px;
+	width:960px;
+	height:100px;
 	}
+
+footer a {
+	color: white;
+	padding-left: .5em;
+	padding-top: 10px;
+}
