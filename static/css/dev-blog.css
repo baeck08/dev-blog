@@ -1,91 +1,74 @@
-
+#outerWrapper {
+    border: 6px solid #484848 ;
+    border-radius: 15px;
+    margin: 0 auto;
+    width: 960px;
+}
 
 #header {
-  	background: url('../img/purple2.jpg') repeat ;
-	width:960px;
-	height:154px;
-		
-		}
+    background: url('../img/purple2.jpg') no-repeat 0 45%;
+}
 
 #header a {
-	font-family: 'Trade Winds', cursive;
-  	color: white;
-  	font-size: 50px;
-  	padding-bottom: -10px;
-  	padding-left: .5em;
-
-		}
-
-#outerWrapper {
-	margin: 0 auto;
-	width: 950px;
-	border:6px solid #484848 ;
-	border-radius:15px;
-	padding-right: 10px;
-	}
+    font-family: 'Trade Winds', cursive; /* Need to include Trade Winds, since it's not a default. */
+    color: #fff;
+    font-size: 50px;
+    font-size: 3.125rem; /* 50px/16px (base font size) */
+    padding: .5em 0 .75em .25em;
+}
 
 #wrapper {
-	border:6px solid #a1a1a1;
-	padding: 20px 0px 700px; 
-	background:#dddddd;
-	width:950px;
-	border-radius:8px;
-	padding-top: 23px;
-	}
+    background: #ddd;
+    border: 6px solid #a1a1a1;
+    padding: 1.4375em 0; /* 23px/16px (base font size) */
+}
 
 #menu {
-	width: 100px;
-	float:left;
-	padding-left: 5px;
-	padding-top:23px;
-	padding-right: 3em;
-	
-	}
-
-#left {
-	float:left;
-	width: 750px;
-	border-left-style: double;
-	border-left-width: 5px;
-	padding-left: 2em;
-
-	}	
-
-p {
-	font-family: 'Milonga', cursive;
-  }
-
-
-a{
-	display: block;
-	letter-spacing: -.02em;
-	text-decoration: none;
-	}
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    padding-top: 1.4375em;
+    text-align: center;
+    width: 15.823%; /* 150px/948px */
+}
 
 nav a {
-	display: block;
-	letter-spacing: -.02em;
-	text-decoration: none;
-	line-height: 2em;
-	font-family: 'Princess Sofia', cursive;
-	text-align: right;
+    line-height: 2em;
+    font-family: 'Princess Sofia', cursive; /* Need to include Princess Sofia, since it's not a default. */
+}
 
-	}
+#left {
+    border-left-style: double;
+    border-left-width: 5px;
+    padding-left: 2em;
+    margin-left: 150px;
+}
+
+p {
+    font-family: 'Milonga', cursive; /* Need to include Milogna, subce it's not a defualt. What about things other than paragraphs? */
+ }
+
+
+a {
+    display: block; /* Do you want all anchors to be block? What if they're in the content? */
+    letter-spacing: -.02em;
+    text-decoration: none;
+}
 
 h1 {
-	color: black;
-	}
+    color: #000;
+}
 
 #footer {
-	font-weight: 3em;
-	margin: 0 auto;
-	background-image: url('../img/purple2.jpg');
-	width:960px;
-	height:100px;
-	}
+    background: url('../img/purple2.jpg') 0 55%;
+    font-weight: 3em; /* Not a valid value, so not sure what you're meaning. */
+    margin: 0 auto;
+    height: 100px;
+}
 
 footer a {
-	color: white;
-	padding-left: .5em;
-	padding-top: 10px;
+    color: #fff;
+    padding-left: .5em;
+    padding-top: 1em;
 }
