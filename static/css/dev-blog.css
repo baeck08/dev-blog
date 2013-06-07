@@ -57,19 +57,18 @@ a {
 }
 
 h1 {
-	color: black;
-	}
+    color: #000;
+}
 
 #footer {
-	font-weight: 3em;
-	margin: 0 auto;
-	background-image: url('../img/purple2.jpg');
-	width:960px;
-	height:100px;
-	}
+    background: url('../img/purple2.jpg') 0 55%;
+    font-weight: 3em; /* Not a valid value, so not sure what you're meaning. */
+    margin: 0 auto;
+    height: 100px;
+}
 
 footer a {
-	color: white;
-	padding-left: .5em;
-	padding-top: 10px;
+    color: #fff;
+    padding-left: .5em;
+    padding-top: 1em;
 }
