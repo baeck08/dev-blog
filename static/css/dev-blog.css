@@ -21,7 +21,6 @@
     background: #ddd;
     border: 6px solid #a1a1a1;
     padding: 1.4375em 0; /* 23px/16px (base font size) */
-    overflow: auto; /* One way for parents to contain their floated childs. */
 }
 
 #menu {
@@ -34,13 +33,11 @@
 }
 
 #left {
-	float:left;
-	width: 750px;
-	border-left-style: double;
-	border-left-width: 5px;
-	padding-left: 2em;
-
-	}	
+    border-left-style: double;
+    border-left-width: 5px;
+    padding-left: 2em;
+    margin-left: 150px;
+}
 
 p {
 	font-family: 'Milonga', cursive;
