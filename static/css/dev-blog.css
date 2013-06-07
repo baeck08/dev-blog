@@ -10,7 +10,7 @@
 }
 
 #header a {
-    font-family: 'Trade Winds', cursive; /* Need to include Trade Winds, if it's not a default. */
+    font-family: 'Trade Winds', cursive; /* Need to include Trade Winds, since it's not a default. */
     color: #fff;
     font-size: 50px;
     font-size: 3.125rem; /* 50px/16px (base font size) */
@@ -28,8 +28,14 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     float: left;
-    padding: 1.4375em 3em 0 .3125em;
-    width: 15.9375%;
+    padding-top: 1.4375em;
+    text-align: center;
+    width: 15.823%; /* 150px/948px */
+}
+
+nav a {
+    line-height: 2em;
+    font-family: 'Princess Sofia', cursive; /* Need to include Princess Sofia, since it's not a default. */
 }
 
 #left {
@@ -40,25 +46,15 @@
 }
 
 p {
-	font-family: 'Milonga', cursive;
-  }
+    font-family: 'Milonga', cursive; /* Need to include Milogna, subce it's not a defualt. What about things other than paragraphs? */
+ }
 
 
-a{
-	display: block;
-	letter-spacing: -.02em;
-	text-decoration: none;
-	}
-
-nav a {
-	display: block;
-	letter-spacing: -.02em;
-	text-decoration: none;
-	line-height: 2em;
-	font-family: 'Princess Sofia', cursive;
-	text-align: right;
-
-	}
+a {
+    display: block; /* Do you want all anchors to be block? What if they're in the content? */
+    letter-spacing: -.02em;
+    text-decoration: none;
+}
 
 h1 {
 	color: black;
