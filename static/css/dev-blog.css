@@ -10,7 +10,8 @@
 }
 
 #header a {
-    font-family: 'Trade Winds', cursive; /* Need to include Trade Winds, since it's not a default. */
+    display: block;
+    font-family: 'Trade Winds', cursive; 
     color: #fff;
     font-size: 50px;
     font-size: 3.125rem; /* 50px/16px (base font size) */
@@ -34,8 +35,9 @@
 }
 
 nav a {
+    display: block;
     line-height: 2em;
-    font-family: 'Princess Sofia', cursive; /* Need to include Princess Sofia, since it's not a default. */
+    font-family: 'Merienda', cursive;
 }
 
 #left {
@@ -46,12 +48,11 @@ nav a {
 }
 
 p {
-    font-family: 'Milonga', cursive; /* Need to include Milogna, subce it's not a defualt. What about things other than paragraphs? */
+    font-family: 'Milonga', cursive; 
  }
 
 
 a {
-    display: block; /* Do you want all anchors to be block? What if they're in the content? */
     letter-spacing: -.02em;
     text-decoration: none;
 }
@@ -62,7 +63,7 @@ h1 {
 
 #footer {
     background: url('../img/purple2.jpg') 0 55%;
-    font-weight: 3em; /* Not a valid value, so not sure what you're meaning. */
+    font-weight: bold ;
     margin: 0 auto;
     height: 100px;
 }
