@@ -7,6 +7,8 @@
 
 #header {
     background: url('../img/purple2.jpg') no-repeat 0 45%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 #header a {
@@ -32,6 +34,8 @@
     padding-top: 1.4375em;
     text-align: center;
     width: 15.823%; /* 150px/948px */
+    border-top: 5px double;
+
 }
 
 nav a {
@@ -59,10 +63,16 @@ a {
 
 h1 {
     color: #000;
+    font-size: 1.7em;
+}
+h3 {
+    font-style: italic;
 }
 
 #footer {
     background: url('../img/purple2.jpg') 0 55%;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
     font-weight: bold ;
     margin: 0 auto;
     height: 100px;
