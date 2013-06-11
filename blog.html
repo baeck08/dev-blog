@@ -6,6 +6,7 @@
   	<title>Dev Blog</title>
 
  	<link rel="stylesheet" href="static/css/dev-blog.css">
+    <link rel="stylesheet" href="static/css/skeleton.css">
     <link href='http://fonts.googleapis.com/css?family=Merienda' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Milonga' rel='stylesheet' type='text/css'>
 
@@ -14,35 +15,35 @@
 	
 	<div id="outerWrapper">
         <header id="header">
-            <a href="blog.html">Developers Blog</a>
+            <a class="header_title" href="blog.html">Developers Blog</a>
         </header> <!--/header -->
         <div id="wrapper">
         <nav id="menu">
-			<a href="blog.html">Home Page</a>
-			<a href="entry.html">Entry Page</a>
+			<a class="menu_title" href="blog.html">Home Page</a>
+			<a class="menu_title" href="entry.html">Entry Page</a>
         </nav>	<!--/nav -->
 
-        <section id="left">
+        <section id="main">
             <article>
-                <a href="editentry.html">
+                <a class="article_title" href="editentry.html">
                     <h1>About Me</h1>
                 </a>
-            <time pubdate datetime="2013-06-03">June 3, 2013<time>
+            <time class="article_date" pubdate datetime="2013-06-03">June 3, 2013<time>
 			<h3>Amanda Bynes</h3>
 
-				<p class="first post"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitationv ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p class="article_content"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitationv ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-				<p class="first post">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<p class="article_content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
 
-				<input type=button onClick="location.href='editentry.html'" value='Edit Entry'>
+				<input class="article_edit" type=button onClick="location.href='editentry.html'" value='Edit Entry'>
             </article>
                 </section>
 			
     
     </div><!-- /wrapper -->
         <footer id="footer">
-            <a href="blog.html">Copyright 2013</a>
+            <a class="footer_title" href="blog.html">Copyright 2013</a>
         </footer>
      </div><!-- /outerWrapper -->   
     

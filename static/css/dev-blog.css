@@ -1,3 +1,4 @@
+
 #outerWrapper {
     border: 6px solid #484848 ;
     border-radius: 15px;
@@ -9,6 +10,7 @@
     background: url('../img/purple2.jpg') no-repeat 0 45%;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
+    
 }
 
 #header a {
@@ -21,6 +23,7 @@
 }
 
 #wrapper {
+    max-width: 950px;
     background: #ddd;
     border: 6px solid #a1a1a1;
     padding: 1.4375em 0; /* 23px/16px (base font size) */
@@ -35,20 +38,22 @@
     text-align: center;
     width: 15.823%; /* 150px/948px */
     border-top: 5px double;
+   
 
 }
 
-nav a {
+#menu a {
     display: block;
     line-height: 2em;
     font-family: 'Merienda', cursive;
 }
 
-#left {
+#main {
     border-left-style: double;
     border-left-width: 5px;
     padding-left: 2em;
     margin-left: 150px;
+
 }
 
 p {
@@ -71,8 +76,8 @@ h3 {
 
 #footer {
     background: url('../img/purple2.jpg') 0 55%;
-    border-bottom-right-radius: 8px;
-    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
     font-weight: bold ;
     margin: 0 auto;
     height: 100px;

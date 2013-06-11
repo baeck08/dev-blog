@@ -13,36 +13,36 @@
     <div id="outerWrapper">
       
         <header id="header">
-            <a href="blog.html">Developers Blog</a>
+            <a class="header_title" href="blog.html">Developers Blog</a>
         </header>
         <div id="wrapper">
 	         <nav id="menu">
-		          <a href="blog.html">Home Page</a>
-		          <a href="entry.html">Entry Page</a>
+		          <a class="menu_item" href="blog.html">Home Page</a>
+		          <a class="menu_item" href="entry.html">Entry Page</a>
 	         </nav>	
 	       
 
-         <section id="left">
+         <section id="main">
 
 		        <form>
               <fieldset>
-            <p>
-       	      <label for="myTitle">Title</label>
+            <p class="label_title">
+       	      <label  for="myTitle">Title</label>
                 <input type = "text"
                  id = "myTitle"
                  placeholder="text here"
                  value = "" />
             </p>
 
-            <p>
-              <label for="myDate">Date</label>
+            <p class="label_date">
+              <label  for="myDate">Date</label>
                 <input type = "text"
                  id = "myDate"
                  placeholder="text here"
                  value = "" />
             </p>
 
-            <p>
+            <p class="label_author">
               <label for="myAuthor">Author</label>
                 <input type = "text"
                  id = "myAuthor"
@@ -50,13 +50,13 @@
                  value = "" />
             </p>
 
-            <p>
+            <p class="label_input">
               <textarea id ="myTextArea"
                   rows = "25"
-                  cols = "92"
+                  cols = "90"
                   placeholder="text here"></textarea>
 
-          <input type=button onClick="location.href='blog.html'" value='Post Entry'>
+                <input class="form_post_entry" type=button onClick="location.href='blog.html'" value='Post Entry'>
             </p>
 
 
@@ -65,7 +65,7 @@
           </section>
      </div><!-- /wrapper -->
             <footer id="footer">
-               <a href="entry.html">Copyright 2013</a>
+               <a class="footer_title" href="entry.html">Copyright 2013</a>
             </footer>
       </div><!-- /outerWrapper -->
 
