@@ -10,6 +10,7 @@
     background: url('../img/purple2.jpg') no-repeat 0 45%;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
+
     
 }
 
@@ -23,6 +24,7 @@
 }
 
 #wrapper {
+     margin: 0 auto;
     max-width: 950px;
     background: #ddd;
     border: 6px solid #a1a1a1;
