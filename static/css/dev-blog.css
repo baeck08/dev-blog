@@ -91,9 +91,14 @@ footer a {
     padding-top: 1em;
 }
 
-
-
 @media screen and (min-width:320px) and (max-width: 1060px) {
     #outerWrapper { width:100%; }
- 
+    #menu   {width: 100%;} 
+    #main {width:100%;
+        border-left-style: none;
+        border-left-width: none;
+        padding-left: none;
+        margin: 0 auto;
+
+    }
 }
